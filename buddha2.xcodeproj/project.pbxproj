@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559872F51A8BAC5B00C32467 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 559872F41A8BAC5B00C32467 /* Default-568h@2x.png */; };
+		D8BB6FC71471EF0E00166353 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BB6FC61471EF0E00166353 /* UIKit.framework */; };
+		D8BB6FC91471EF0E00166353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BB6FC81471EF0E00166353 /* Foundation.framework */; };
+		D8BB6FCB1471EF0E00166353 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BB6FCA1471EF0E00166353 /* CoreGraphics.framework */; };
+		D8BB6FD11471EF0E00166353 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FCF1471EF0E00166353 /* InfoPlist.strings */; };
+		D8BB6FD31471EF0E00166353 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BB6FD21471EF0E00166353 /* main.m */; };
+		D8BB6FD71471EF0E00166353 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BB6FD61471EF0E00166353 /* AppDelegate.m */; };
+		D8BB6FDA1471EF0E00166353 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BB6FD91471EF0E00166353 /* ViewController.m */; };
+		D8BB6FDD1471EF0E00166353 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FDB1471EF0E00166353 /* ViewController_iPhone.xib */; };
+		D8BB6FE01471EF0E00166353 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FDE1471EF0E00166353 /* ViewController_iPad.xib */; };
+		D8BB6FE81471F01F00166353 /* BuddhaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BB6FE71471F01F00166353 /* BuddhaViewController.m */; };
+		D8BB6FF01471F0D500166353 /* lotuscircblue320.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FEA1471F0D500166353 /* lotuscircblue320.png */; };
+		D8BB6FF11471F0D500166353 /* lotuscircblue500alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FEB1471F0D500166353 /* lotuscircblue500alpha.png */; };
+		D8BB6FF21471F0D500166353 /* lotusf03320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FEC1471F0D500166353 /* lotusf03320x480.png */; };
+		D8BB6FF31471F0D500166353 /* lotusf03320x480_2.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FED1471F0D500166353 /* lotusf03320x480_2.png */; };
+		D8BB6FF41471F0D500166353 /* lotusf05320x400.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FEE1471F0D500166353 /* lotusf05320x400.png */; };
+		D8BB6FF51471F0D500166353 /* sittingbuddha.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FEF1471F0D500166353 /* sittingbuddha.png */; };
+		D8BB6FF81471F10F00166353 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FF61471F10F00166353 /* Default.png */; };
+		D8BB6FF91471F10F00166353 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FF71471F10F00166353 /* Icon.png */; };
+		D8BB6FFF1471F12C00166353 /* buddhacloseup320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FFA1471F12C00166353 /* buddhacloseup320x480.png */; };
+		D8BB70001471F12C00166353 /* buddhacloseuplauph320x427.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FFB1471F12C00166353 /* buddhacloseuplauph320x427.png */; };
+		D8BB70011471F12C00166353 /* buddhacloseuplauph320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FFC1471F12C00166353 /* buddhacloseuplauph320x480.png */; };
+		D8BB70021471F12C00166353 /* buddhafaceeyes320x230.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FFD1471F12C00166353 /* buddhafaceeyes320x230.png */; };
+		D8BB70031471F12C00166353 /* buddhasideface320x340alpha.png in Resources */ = {isa = PBXBuildFile; fileRef = D8BB6FFE1471F12C00166353 /* buddhasideface320x340alpha.png */; };
+		D8BB70051471F18D00166353 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BB70041471F18D00166353 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		559872F41A8BAC5B00C32467 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D8BB6FC21471EF0E00166353 /* buddha2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buddha2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BB6FC61471EF0E00166353 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8BB6FC81471EF0E00166353 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8BB6FCA1471EF0E00166353 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8BB6FCE1471EF0E00166353 /* buddha2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "buddha2-Info.plist"; sourceTree = "<group>"; };
+		D8BB6FD01471EF0E00166353 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8BB6FD21471EF0E00166353 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8BB6FD41471EF0E00166353 /* buddha2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "buddha2-Prefix.pch"; sourceTree = "<group>"; };
+		D8BB6FD51471EF0E00166353 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8BB6FD61471EF0E00166353 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8BB6FD81471EF0E00166353 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8BB6FD91471EF0E00166353 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8BB6FDC1471EF0E00166353 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		D8BB6FDF1471EF0E00166353 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		D8BB6FE61471F01F00166353 /* BuddhaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuddhaViewController.h; sourceTree = "<group>"; };
+		D8BB6FE71471F01F00166353 /* BuddhaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuddhaViewController.m; sourceTree = "<group>"; };
+		D8BB6FEA1471F0D500166353 /* lotuscircblue320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lotuscircblue320.png; sourceTree = "<group>"; };
+		D8BB6FEB1471F0D500166353 /* lotuscircblue500alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lotuscircblue500alpha.png; sourceTree = "<group>"; };
+		D8BB6FEC1471F0D500166353 /* lotusf03320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lotusf03320x480.png; sourceTree = "<group>"; };
+		D8BB6FED1471F0D500166353 /* lotusf03320x480_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lotusf03320x480_2.png; sourceTree = "<group>"; };
+		D8BB6FEE1471F0D500166353 /* lotusf05320x400.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lotusf05320x400.png; sourceTree = "<group>"; };
+		D8BB6FEF1471F0D500166353 /* sittingbuddha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sittingbuddha.png; sourceTree = "<group>"; };
+		D8BB6FF61471F10F00166353 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D8BB6FF71471F10F00166353 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D8BB6FFA1471F12C00166353 /* buddhacloseup320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buddhacloseup320x480.png; sourceTree = "<group>"; };
+		D8BB6FFB1471F12C00166353 /* buddhacloseuplauph320x427.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buddhacloseuplauph320x427.png; sourceTree = "<group>"; };
+		D8BB6FFC1471F12C00166353 /* buddhacloseuplauph320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buddhacloseuplauph320x480.png; sourceTree = "<group>"; };
+		D8BB6FFD1471F12C00166353 /* buddhafaceeyes320x230.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buddhafaceeyes320x230.png; sourceTree = "<group>"; };
+		D8BB6FFE1471F12C00166353 /* buddhasideface320x340alpha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buddhasideface320x340alpha.png; sourceTree = "<group>"; };
+		D8BB70041471F18D00166353 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8BB6FBF1471EF0E00166353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BB70051471F18D00166353 /* QuartzCore.framework in Frameworks */,
+				D8BB6FC71471EF0E00166353 /* UIKit.framework in Frameworks */,
+				D8BB6FC91471EF0E00166353 /* Foundation.framework in Frameworks */,
+				D8BB6FCB1471EF0E00166353 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8BB6FB71471EF0E00166353 = {
+			isa = PBXGroup;
+			children = (
+				559872F41A8BAC5B00C32467 /* Default-568h@2x.png */,
+				D8BB6FF61471F10F00166353 /* Default.png */,
+				D8BB6FF71471F10F00166353 /* Icon.png */,
+				D8BB6FCC1471EF0E00166353 /* buddha2 */,
+				D8BB6FC51471EF0E00166353 /* Frameworks */,
+				D8BB6FC31471EF0E00166353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8BB6FC31471EF0E00166353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8BB6FC21471EF0E00166353 /* buddha2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8BB6FC51471EF0E00166353 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8BB70041471F18D00166353 /* QuartzCore.framework */,
+				D8BB6FC61471EF0E00166353 /* UIKit.framework */,
+				D8BB6FC81471EF0E00166353 /* Foundation.framework */,
+				D8BB6FCA1471EF0E00166353 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8BB6FCC1471EF0E00166353 /* buddha2 */ = {
+			isa = PBXGroup;
+			children = (
+				D8BB6FE61471F01F00166353 /* BuddhaViewController.h */,
+				D8BB6FE71471F01F00166353 /* BuddhaViewController.m */,
+				D8BB6FD51471EF0E00166353 /* AppDelegate.h */,
+				D8BB6FD61471EF0E00166353 /* AppDelegate.m */,
+				D8BB6FD81471EF0E00166353 /* ViewController.h */,
+				D8BB6FD91471EF0E00166353 /* ViewController.m */,
+				D8BB6FDB1471EF0E00166353 /* ViewController_iPhone.xib */,
+				D8BB6FDE1471EF0E00166353 /* ViewController_iPad.xib */,
+				D8BB6FCD1471EF0E00166353 /* Supporting Files */,
+				D8BB6FE91471F06A00166353 /* images */,
+			);
+			path = buddha2;
+			sourceTree = "<group>";
+		};
+		D8BB6FCD1471EF0E00166353 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8BB6FCE1471EF0E00166353 /* buddha2-Info.plist */,
+				D8BB6FCF1471EF0E00166353 /* InfoPlist.strings */,
+				D8BB6FD21471EF0E00166353 /* main.m */,
+				D8BB6FD41471EF0E00166353 /* buddha2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8BB6FE91471F06A00166353 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D8BB6FFA1471F12C00166353 /* buddhacloseup320x480.png */,
+				D8BB6FFB1471F12C00166353 /* buddhacloseuplauph320x427.png */,
+				D8BB6FFC1471F12C00166353 /* buddhacloseuplauph320x480.png */,
+				D8BB6FFD1471F12C00166353 /* buddhafaceeyes320x230.png */,
+				D8BB6FFE1471F12C00166353 /* buddhasideface320x340alpha.png */,
+				D8BB6FEA1471F0D500166353 /* lotuscircblue320.png */,
+				D8BB6FEB1471F0D500166353 /* lotuscircblue500alpha.png */,
+				D8BB6FEC1471F0D500166353 /* lotusf03320x480.png */,
+				D8BB6FED1471F0D500166353 /* lotusf03320x480_2.png */,
+				D8BB6FEE1471F0D500166353 /* lotusf05320x400.png */,
+				D8BB6FEF1471F0D500166353 /* sittingbuddha.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8BB6FC11471EF0E00166353 /* buddha2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8BB6FE31471EF0E00166353 /* Build configuration list for PBXNativeTarget "buddha2" */;
+			buildPhases = (
+				D8BB6FBE1471EF0E00166353 /* Sources */,
+				D8BB6FBF1471EF0E00166353 /* Frameworks */,
+				D8BB6FC01471EF0E00166353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = buddha2;
+			productName = buddha2;
+			productReference = D8BB6FC21471EF0E00166353 /* buddha2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8BB6FB91471EF0E00166353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "joe kerr";
+			};
+			buildConfigurationList = D8BB6FBC1471EF0E00166353 /* Build configuration list for PBXProject "buddha2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8BB6FB71471EF0E00166353;
+			productRefGroup = D8BB6FC31471EF0E00166353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8BB6FC11471EF0E00166353 /* buddha2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8BB6FC01471EF0E00166353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BB6FD11471EF0E00166353 /* InfoPlist.strings in Resources */,
+				D8BB6FDD1471EF0E00166353 /* ViewController_iPhone.xib in Resources */,
+				D8BB6FE01471EF0E00166353 /* ViewController_iPad.xib in Resources */,
+				D8BB6FF01471F0D500166353 /* lotuscircblue320.png in Resources */,
+				D8BB6FF11471F0D500166353 /* lotuscircblue500alpha.png in Resources */,
+				D8BB6FF21471F0D500166353 /* lotusf03320x480.png in Resources */,
+				D8BB6FF31471F0D500166353 /* lotusf03320x480_2.png in Resources */,
+				D8BB6FF41471F0D500166353 /* lotusf05320x400.png in Resources */,
+				559872F51A8BAC5B00C32467 /* Default-568h@2x.png in Resources */,
+				D8BB6FF51471F0D500166353 /* sittingbuddha.png in Resources */,
+				D8BB6FF81471F10F00166353 /* Default.png in Resources */,
+				D8BB6FF91471F10F00166353 /* Icon.png in Resources */,
+				D8BB6FFF1471F12C00166353 /* buddhacloseup320x480.png in Resources */,
+				D8BB70001471F12C00166353 /* buddhacloseuplauph320x427.png in Resources */,
+				D8BB70011471F12C00166353 /* buddhacloseuplauph320x480.png in Resources */,
+				D8BB70021471F12C00166353 /* buddhafaceeyes320x230.png in Resources */,
+				D8BB70031471F12C00166353 /* buddhasideface320x340alpha.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8BB6FBE1471EF0E00166353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BB6FD31471EF0E00166353 /* main.m in Sources */,
+				D8BB6FD71471EF0E00166353 /* AppDelegate.m in Sources */,
+				D8BB6FDA1471EF0E00166353 /* ViewController.m in Sources */,
+				D8BB6FE81471F01F00166353 /* BuddhaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8BB6FCF1471EF0E00166353 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8BB6FD01471EF0E00166353 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8BB6FDB1471EF0E00166353 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8BB6FDC1471EF0E00166353 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D8BB6FDE1471EF0E00166353 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8BB6FDF1471EF0E00166353 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8BB6FE11471EF0E00166353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8BB6FE21471EF0E00166353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8BB6FE41471EF0E00166353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "buddha2/buddha2-Prefix.pch";
+				INFOPLIST_FILE = "buddha2/buddha2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8BB6FE51471EF0E00166353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "buddha2/buddha2-Prefix.pch";
+				INFOPLIST_FILE = "buddha2/buddha2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8BB6FBC1471EF0E00166353 /* Build configuration list for PBXProject "buddha2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8BB6FE11471EF0E00166353 /* Debug */,
+				D8BB6FE21471EF0E00166353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8BB6FE31471EF0E00166353 /* Build configuration list for PBXNativeTarget "buddha2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8BB6FE41471EF0E00166353 /* Debug */,
+				D8BB6FE51471EF0E00166353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8BB6FB91471EF0E00166353 /* Project object */;
+}
